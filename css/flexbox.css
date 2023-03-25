@@ -71,25 +71,25 @@
     .cabecalho__pesquisar__item {
         display: block
       }
+      
 
       /*RODAPÉ */
       .rodape__container {
-        justify-content: space-between;
-      
+          justify-content: space-between; 
     }
 }
 
 @media(min-width:1440px) {
-
+    
     .menu__container{
         width: 239px;
         overflow: scroll;
     }
 
-.menu__lista:nth-child(2), 
-.menu__lista:nth-child(3) ,
-.menu__lista:nth-child(4) {
-display: flex;
+    .menu__lista:nth-child(2), 
+    .menu__lista:nth-child(3) ,
+    .menu__lista:nth-child(4) {
+        display: flex;
 }
 
 .menu__lista {
@@ -104,3 +104,18 @@ display: flex;
     align-items: center;
 }
 }
+
+/* VIDEOS */
+
+.videos__item {
+    height: 303px;
+    width: 280px;
+    flex-grow: 1;
+}
+
+.videos__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
